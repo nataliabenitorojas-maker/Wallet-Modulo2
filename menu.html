@@ -12,10 +12,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
       <a class="navbar-brand" href="menu.html">Alke Wallet</a>
-      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div id="nav" class="collapse navbar-collapse">
+      <div class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="deposit.html">Depositar</a></li>
           <li class="nav-item"><a class="nav-link" href="sendmoney.html">Enviar</a></li>
@@ -28,26 +25,10 @@
 
   <!-- Resumen -->
   <section class="container py-4">
-    <div class="row g-3">
-      <div class="col-md-4">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">Saldo disponible</h5>
-            <p class="display-6" id="balanceText">$0</p>
-            <a href="deposit.html" class="btn btn-outline-primary btn-sm">Depositar</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-8">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">Acciones rápidas</h5>
-            <div class="d-flex gap-2 flex-wrap">
-              <a href="sendmoney.html" class="btn btn-primary">Enviar dinero</a>
-              <a href="transactions.html" class="btn btn-secondary">Ver transacciones</a>
-            </div>
-          </div>
-        </div>
+    <div class="card shadow-sm">
+      <div class="card-body text-center">
+        <h5 class="card-title">Saldo disponible</h5>
+        <p class="display-6" id="balanceText">$0</p>
       </div>
     </div>
   </section>

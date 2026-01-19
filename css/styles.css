@@ -1,0 +1,22 @@
+:root {
+  --primary: #0d6efd;
+  --success: #198754;
+  --danger: #dc3545;
+  --bg: #f8f9fa;
+  --text: #212529;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.navbar {
+  background: var(--primary) !important;
+}
+
+#balanceText {
+  font-weight: 700;
+  color: var(--success);
+}
